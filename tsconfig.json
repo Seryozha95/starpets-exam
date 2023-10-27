@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "baseUrl": "./app",
+    "sourceMap": true
+  },
+  "include": [
+    "app/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
